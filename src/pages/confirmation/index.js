@@ -14,8 +14,8 @@ const Index = () => {
     return (
       
         <div>
-            <Titlepage title="Merci pour votre commande" />
-            <div className="text-center">
+            <Titlepage title="Merci pour votre commande"  />
+            <div className="text-center" >
                 <p>Votre commande d&apos;un montant de {router.query.amount} € a bien été validée</p>
             </div>
         </div>
