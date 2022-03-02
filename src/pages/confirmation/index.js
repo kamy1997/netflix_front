@@ -1,6 +1,6 @@
 import React, {useEffect, useContext} from 'react';
 import { useRouter } from "next/router";
-import CartContext from "../../context/CartContext";
+import CartContext from "../../context/cartContext";
 import Titlepage from '../../components/UI/Title/TitlePage';
 const Index = () => {
     const { deleteCart } = useContext(CartContext);
