@@ -72,17 +72,7 @@ function BrowsePage({films}) {
  
     </div>
   </div>
-   
-
-
-
 </div>
-
-
-
-
-
-
 
 <footer className={style.footer}> 
   <Footer />
@@ -91,9 +81,7 @@ function BrowsePage({films}) {
 
   </>
   
-  
-   
-   );
+);
    
 }
 
