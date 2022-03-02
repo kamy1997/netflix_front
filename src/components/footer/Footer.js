@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styles from "./Footer.module.scss";
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
