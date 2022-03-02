@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Headermenu from "../../components/header/HeaderMenu/HeaderMenu";
 import Banner from "../../components/banner/Banner";
 import Footer from "../../components/footer/Footer";
@@ -11,10 +11,8 @@ import { PlayArrow,
 import style from "./browse.module.scss";
 
 
-
-
 export const getStaticProps = async () => {
-  const res = await fetch('http://localhost:3131/api/v1/products/getProduct');
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/products/getProduct`);
   const data  = await res.json();
   return{
     props: {films : data }
