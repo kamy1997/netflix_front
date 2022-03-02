@@ -10,52 +10,52 @@ function Footer() {
 
         <div className={styles.container}>
             <div className={styles.footer__socials}>
-                <a href="/" className={styles.footer__social}>
+                <Link href="/" className={styles.footer__social}>
                     <FacebookIcon/>
-                </a>
-                <a href="/" className={styles.footer__social}>
+                </Link>
+                <Link href="/" className={styles.footer__social}>
                     < InstagramIcon/>
-                </a>
-                <a href="/" className={styles.footer__social}>
+                </Link>
+                <Link href="/" className={styles.footer__social}>
                     <TwitterIcon/>
-                </a>
-                <a href="/" className={styles.footer__social}>
+                </Link>
+                <Link href="/" className={styles.footer__social}>
                     < YouTubeIcon/>
-                </a>
+                </Link>
                 </div>
             <ul className={styles.footer__links}>
                 <li className={styles.footer__link}>
-                    <a href="/" className={styles.footer__link}>
+                    <Link href="/" className={styles.footer__link}>
                        
                     FAQ
-                    </a>
+                    </Link>
 
                 </li>
                 <li className={styles.footer__link}>
-                    <a href="/" className={styles.footer__link}>
+                    <Link href="/" className={styles.footer__link}>
                     Relations Investisseurs
-                    </a>
+                    </Link>
 
                 </li>
                 <li className={styles.footer__link}>
-                    <a href="/" className={styles.footer__link}>
+                    <Link href="/" className={styles.footer__link}>
                     Modes de lecture
-                    </a>
+                    </Link>
                     </li>
                 <li className={styles.footer__link}>
-                    <a href="/" className={styles.footer__link}>
+                    <Link href="/" className={styles.footer__link}>
                     Mentions légales
-                    </a>
+                    </Link>
                     </li>
                 <li className={styles.footer__link}>
-                    <a href="/" className={styles.footer__link}>
+                    <Link href="/" className={styles.footer__link}>
                     Seulement sur Netflix
-                    </a>
+                    </Link>
                     </li>
                 <li className={styles.footer__link}>
-                    <a href="/" className={styles.footer__link}>
-                    Centre d'aide
-                    </a>
+                    <Link href="/" className={styles.footer__link}>
+                    Centre d&apos;aide
+                    </Link>
                     </li>
                
                

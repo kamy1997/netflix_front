@@ -21,7 +21,7 @@ function Banner() {
           
           <div className={styles.banner__buttons}>
               <button className={styles.banner__button} stylesbanner__button--play> <PlayArrowIcon /> Lecture</button>
-              <button className={styles.banner__button}> <HelpOutlineIcon/>Plus d'infos</button>
+              <button className={styles.banner__button}> <HelpOutlineIcon/>Plus d&apos;infos</button>
           </div>
       </div>
   </headear>;

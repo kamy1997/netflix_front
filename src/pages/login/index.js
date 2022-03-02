@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-
+import Message from '../../components/UI/Message/Message'
 import Input from "../../components/UI/Input/Input";
 import authService from "../../services/auth.service";
 import { useRouter } from "next/router";
@@ -74,7 +74,7 @@ const Index = () => {
             New to Netflix? <b>Sign up now.</b>
           </span>
           <small>
-            This page is protected by Google reCAPTCHA to ensure you're not a
+            This page is protected by Google reCAPTCHA to ensure you&apos;re not a
             bot. <b>Learn more</b>.
           </small>
                 
